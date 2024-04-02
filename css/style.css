@@ -23,6 +23,11 @@ body{
     margin: 0 auto;
 }
 
+.container{
+    max-width: 990px;
+    margin: 0 auto;
+}
+
 .d-flex{
     display: flex;
     flex-wrap: wrap;
@@ -34,28 +39,53 @@ body{
 
 .col-50{
     width: 50%;
-    height: 75px;
-    border: 1px solid black;
+    margin: 10px 0;
 }
 
 .col-100{
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+    margin: 10px 0;
 }
 
 .col-40{
     width: 40%;
-    height: 200px;
-    border: 1px solid black;
+    margin: 10px 0;
 }
 
 .col-60{
     width: 60%;
-    height: 200px;
-    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    margin: 10px 0;
 }
 /* FINE CLASSI LAYOUT */
+/* INIZIO CLASSI UTILITY */
+.border{
+    border: 1px solid black;
+}
+
+.height-75{
+    height: 75px;
+}
+
+.height-200{
+    height: 200px;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.height-500{
+    height: 500px;
+}
+
+.height-300{
+    height: 300px;
+}
 /* INIZIO CLASSI BACKGROUND */
 .bg-red{
     background-color: red;
@@ -68,4 +98,21 @@ body{
 .bg-blue{
     background-color: blue;
 }
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-green{
+    background-color: green;
+}
 /* FINE CLASSI BACKGROUND */
+/* FINE CLASSI UTILITY */
