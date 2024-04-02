@@ -29,7 +29,7 @@ body{
 }
 
 .row{
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .d-flex{
@@ -65,10 +65,19 @@ body{
     width: calc(100% / 3);
     margin: 10px 0;
 }
+
+.col-20{
+    width: 20%;
+    margin: 10px 0;
+}
 /* FINE CLASSI LAYOUT */
 /* INIZIO CLASSI UTILITY */
 .border{
     border: 1px solid black;
+}
+
+.border-white{
+    border: 1px solid white;
 }
 
 .height-75{
@@ -137,6 +146,18 @@ body{
 
 .bg-lightgray{
     background-color: lightgray;
+}
+
+.bg-violet{
+    background-color: violet;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-cyan{
+    background-color: cyan;
 }
 /* FINE CLASSI BACKGROUND */
 /* FINE CLASSI UTILITY */
