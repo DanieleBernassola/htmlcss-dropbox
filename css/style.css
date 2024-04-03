@@ -222,6 +222,11 @@ ul li a{
     background-color: rgb(0, 81, 255);
     color: white;
 }
+
+.btn-white{
+    background-color: white;
+    border: 1px solid black;
+}
 /* FINE CLASSI BUTTON */
 /* INIZIO CLASSI BACKGROUND */
 .bg-lightblue{
