@@ -65,8 +65,8 @@ body{
 }
 
 .col-33{
-    width: calc(100% / 3);
-    margin: 10px 0;
+    width: calc(100% / 3 - 30px);
+    margin: 10px 15px;
 }
 
 .col-20{
@@ -83,21 +83,37 @@ ul li{
     padding: 0 10px;
 }
 
-a{
+ul li a{
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
+
+.font-size-14{
+    font-size: 14px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.text-align-right{
+    text-align: right;
+}
 /* FINE CLASSI LAYOUT */
 /* INIZIO CLASSI UTILITY */
 .border{
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .border-white{
     border: 1px solid white;
 }
 
+.border-bottom{
+    border-bottom: 1px solid lightgray;
+}
+/* INIZIO ALTEZZE */
 .height-75{
     height: 75px;
 }
@@ -125,6 +141,33 @@ a{
 .height-150{
     height: 150px;
 }
+
+.min-height-700{
+    min-height: 700px;
+}
+/* FINE ALTEZZE */
+/* INIZIO ABBONAMENTI */
+.sub-name{
+    font-size: 20px;
+}
+
+.price{
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.price-spec{
+    color: gray;
+}
+
+.memory{
+    padding: 10px 0;
+}
+
+.color-blue{
+    color: rgb(0, 81, 255);
+}
+/* FINE ABBONAMENTI */
 /* INIZIO CLASSI PADDING E MARGIN */
 .py-20{
     padding: 20px 0;
@@ -138,12 +181,32 @@ a{
     padding: 50px 0;
 }
 
+.py-5{
+    padding: 5px 0;
+}
+
+.py-10{
+    padding: 10px 0;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
 .my-50{
     margin: 50px 0;
 }
 
 .mb-20{
     margin-bottom: 20px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.ml-40{
+    margin-left: 40px;
 }
 /* FINE CLASSI PADDING E MARGIN */
 .width-100{
@@ -160,7 +223,6 @@ a{
     color: white;
 }
 /* FINE CLASSI BUTTON */
-
 /* INIZIO CLASSI BACKGROUND */
 .bg-lightblue{
     background-color: lightblue;
