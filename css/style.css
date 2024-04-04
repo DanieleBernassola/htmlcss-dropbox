@@ -33,6 +33,14 @@ body{
     flex-wrap: wrap;
 }
 
+.d-flex-nowrap{
+    display: flex;
+}
+
+.d-flex-nowrap span{
+    padding-left: 5px;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -82,7 +90,6 @@ body{
 .small-square{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
 }
 
 .square img{
@@ -121,6 +128,10 @@ ul li a{
     font-size: 14px;
 }
 
+.font-weight-600{
+    font-weight: 600;
+}
+
 .text-align-center{
     text-align: center;
 }
@@ -140,6 +151,14 @@ ul li a{
 
 .border-bottom{
     border-bottom: 1px solid lightgray;
+}
+
+.border-bottom-gray{
+    border-bottom: 1px solid gray;
+}
+
+.border-top{
+    border-top: 1px solid gray;
 }
 /* INIZIO ALTEZZE */
 .height-75{
@@ -195,7 +214,34 @@ ul li a{
 .color-blue{
     color: rgb(0, 81, 255);
 }
+
+.acquista::after{
+    margin-top: 20px;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: lightgray;
+    display: block;
+}
 /* FINE ABBONAMENTI */
+.designit-img::after{
+    margin-bottom: 20px;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: gray;
+    display: block;
+}
+
+.language::before{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    content: '';
+    width: 120px;
+    height: 1px;
+    background-color: gray;
+    display: block;
+}
 /* INIZIO CLASSI PADDING E MARGIN */
 .py-20{
     padding: 20px 0;
