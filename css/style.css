@@ -7,11 +7,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-/* header{
-    background-color: red;
-    height: 75px;
-} */
 /* INIZIO CLASSI LAYOUT */
 .container-full{
     max-width: 100vw;
@@ -53,22 +48,13 @@ body{
     justify-content: flex-end;
 }
 
-.col-50{
-    width: 50%;
-}
-
-.col-100{
-    width: 100%;
+.col-20{
+    width: 20%;
     margin: 10px 0;
 }
 
-.col-40{
-    width: 40%;
-    margin: 10px 0;
-}
-
-.col-60{
-    width: 60%;
+.col-30{
+    width: 30%;
     margin: 10px 0;
 }
 
@@ -77,6 +63,30 @@ body{
     margin: 10px 15px;
 }
 
+.col-40{
+    width: 40%;
+    margin: 10px 0;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-60{
+    width: 60%;
+    margin: 10px 0;
+}
+
+.col-70{
+    width: 70%;
+    margin: 10px 0;
+}
+
+.col-100{
+    width: 100%;
+    margin: 10px 0;
+}
+/* INIZIO SQUARE */
 .square-section{
     display: flex;
     flex-wrap: wrap;
@@ -103,12 +113,7 @@ body{
     width: calc(100% / 3);
     height: calc(100vw / 3);
 }
-
-.col-20{
-    width: 20%;
-    margin: 10px 0;
-}
-
+/* FINE SQUARE */
 .content-header{
     padding: 0px 10px;
 }
@@ -242,6 +247,10 @@ ul li a{
     background-color: gray;
     display: block;
 }
+
+.prova{
+    color: rgb(109, 0, 53);
+}
 /* INIZIO CLASSI PADDING E MARGIN */
 .py-20{
     padding: 20px 0;
@@ -307,64 +316,50 @@ ul li a{
 }
 /* FINE CLASSI BUTTON */
 /* INIZIO CLASSI BACKGROUND */
-.bg-red{
+.bg-designit{
+    background-color: lightgreen;
+    border: 10px solid rgb(188, 255, 177);
+}
+
+.bg-asu{
+    background-color: rgb(74, 0, 38);
+}
+
+.bg-uniflorida{
+    background-color: rgb(0, 183, 255);
+    padding: 10% 0;
+}
+
+.bg-topps{
     background-color: red;
 }
 
-.bg-darkred {
-    background-color: darkred;
+.bg-wbr{
+    background-color: rgb(189, 0, 0);
+}
+
+.bg-hearst{
+    background-color: lightblue;
+}
+
+.bg-lonely{
+    background-color: rgb(25, 25, 136);
+}
+
+.bg-clear{
+    background-color: rgb(255, 240, 37);
 }
 
 .bg-lightblue{
     background-color: lightblue;
 }
 
-.bg-blue{
-    background-color: rgb(0, 81, 255);
-}
-
-.bg-darkblue{
-    background-color: rgb(0, 0, 201);
-}
-
-.bg-orange{
-    background-color: orange;
-}
-
-.bg-yellow{
-    background-color: yellow;
-}
-
-.bg-pink{
-    background-color: pink;
-}
-
-.bg-green{
-    background-color: green;
-}
-
-.bg-gray{
-    background-color: gray;
-}
-
-.bg-brown{
-    background-color: brown;
-}
-
 .bg-lightgray{
     background-color: lightgray;
 }
 
-.bg-violet{
-    background-color: violet;
-}
-
 .bg-black{
     background-color: black;
-}
-
-.bg-cyan{
-    background-color: cyan;
 }
 
 .color-gray{
