@@ -79,8 +79,15 @@ body{
     height: calc(100vw / 3);
 }
 
+.small-square{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+}
+
 .square img{
     width: 100%;
+    height: 100%;
     padding: 25%;
     filter: invert(100%);
 }
@@ -312,6 +319,14 @@ ul li a{
 
 .bg-cyan{
     background-color: cyan;
+}
+
+.color-gray{
+    color: gray;
+}
+
+.color-white{
+    color: white;
 }
 /* FINE CLASSI BACKGROUND */
 /* FINE CLASSI UTILITY */
